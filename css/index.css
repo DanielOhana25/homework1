@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+  background-color: gray;
+  direction: ltr;
+  text-align: center;
+}
+h1 {
+  font-size: 26pt;
+  text-align: center;
+}
+.barreMenu {
+  background-color: blanchedalmond;
+}
+.solde {
+  color: brown;
+}
+div {
+  background-color: blanchedalmond;
+  margin: 5px;
+}
+img {
+  width: 30rem; /*largeur*/
+  height: 20rem; /*hauteur*/
+}
+.noir-img,
+.gris-img {
+  width: 30rem; /*largeur*/
+  height: 40rem; /*hauteur*/
+}
+.costumeBleuCiel,
+.costumeBordeaux {
+  float: right;
+}
+.costumeGris,
+.costumeNoir {
+  float: right;
+}
+.btnPay {
+  width: 5rem;
+  height: 5rem;
+}
+.btnZero {
+  width: 5rem;
+  height: 5rem;
+}

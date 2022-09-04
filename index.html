@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cours de demmarage</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  
+    <h1>Location de costumes sur Netanya & alentours</h1>
+    <p class = "barreMenu"><a href = "index.html">page d'acceuil</a> <a href = "cart.html">Mon Panier</a></p>
+    <p><br> Bienvenue sur notre plateforme de location de costume en ligne.</br>
+    vous avez une soirée ? un mariage ? un rendez vous affaire et vous voulez tapez l'oeil ? <br>
+    nous pouvons vous louer des costumes de marques a des prix attractifs, naviguer sur notre catalogue (ci-dessous) et trouver la perle rare.<br></br>
+<p class  = "solde"> Seulement cette semaine : a partir de 200 $ vous recevez 10% de reduction</p>
+    </p>
+
+    <h2>Nos Produits</h2>
+
+    <div class = "costumeBleuCiel">
+    <img src="imgs/costume bleu ciel.jpg" alt="costume bleu ciel" class="bleuCiel-img" />
+    <p> Dior</p>
+    prix  : 100 $, choisissez une taille
+    <select id="sizeBleuCiel">
+      <option value="small">S</option>
+      <option value="Medium">M</option>
+      <option value="Large">L</option>
+      <option value="Extra-Large">XL</option>
+    </select> <br>
+    quantité : 
+    <select id="amountBleuCiel">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <button onclick="bleuCielToCart()">Ajouter au panier</button>
+  </div>
+
+  <div class = "costumeBordeaux">
+    <img src="imgs/costume bordeau.jpg" alt="costume bordeaux" class="bordeaux-img" />
+    <p> Boss</p>
+    prix  : 100 $, choisissez une taille
+    <select id="sizeBordeaux">
+      <option value="small">S</option>
+      <option value="Medium">M</option>
+      <option value="Large">L</option>
+      <option value="Extra-Large">XL</option>
+    </select> <br>
+    quantité : 
+    <select id="amountBordeaux">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <button onclick="bordeauxToCart()">Ajouter au panier</button>
+  </div>
+
+  <div class = "costumeGris">
+    <img src="imgs/costume gris.jpg" alt="costume gris" class="gris-img" />
+    <p> Gucci</p>
+    prix  : 100 $, choisissez une taille
+    <select id="sizeGris">
+      <option value="small">S</option>
+      <option value="Medium">M</option>
+      <option value="Large">L</option>
+      <option value="Extra-Large">XL</option>
+    </select> <br>
+    quantité : 
+    <select id="amountGris">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <button onclick="grisToCart()">Ajouter au panier</button>
+  </div>
+
+  <div class = "costumeNoir">
+    <img src="imgs/costume noir.jpg" alt="costume noir" class="noir-img" />
+    <p>   Chanel</p>
+    prix  : 100 $, choisissez une taille
+    <select id="sizeNoir">
+      <option value="small">S</option>
+      <option value="Medium">M</option>
+      <option value="Large">L</option>
+      <option value="Extra-Large">XL</option>
+    </select> <br>
+    quantité : 
+    <select id="amountNoir">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <button onclick="noirToCart()">Ajouter au panier</button>
+  </div>
+
+ <button class = "btnPay" onclick = "overallPrice()"> Total prix à payer  </button>
+ <button class = "btnZero" onclick = "zeroToPay()"> remmettre le panier à zero  </button>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
